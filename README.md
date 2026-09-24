@@ -18,6 +18,10 @@ Download `index.html` and open it in a modern browser. No installation, account,
 
 The proposed UF FYCS non-thesis pathway is: Paper 1 identifies student needs; Paper 2 maps resources and residual gaps; Paper 3 tests whether a bounded, human-guided tool addresses a supported gap. This code demonstrates a candidate function, not a research finding or validated intervention.
 
+## Evaluation
+
+A reusable pilot worksheet is in [EVALUATION.md](EVALUATION.md). It is not a validated study instrument.
+
 ## Contributing
 
 Issues and pull requests for accessibility, plain-language writing, keyboard use, privacy, and source verification are welcome. Do not submit personal health or education information, unpublished manuscripts, or private UF materials. Significant new features should be discussed in an issue first so the research scope remains clear.
