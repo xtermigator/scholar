@@ -16,7 +16,7 @@ function draft(){
  $('draftSection').classList.remove('hide');$('status').textContent='Your kit is ready. Review it before sharing.';$('draftSection').scrollIntoView({behavior:'smooth',block:'start'});$('output').focus({preventScroll:true});
 }
 $('draft').addEventListener('click',draft);
-$('example').addEventListener('click',()=>{$('context').value='an online course';$('recipient').value='my instructor';$('barrier').value='I lose track of the first step when a large assignment has many parts and no short checklist.';$('help').value='A brief task map and a chance to confirm the first deliverable have helped in other courses.';$('question').value='Could we clarify the first deliverable and where I should begin?';draft()});
+$('example').addEventListener('click',()=>{$('context').value='an online course';$('recipient').value='your instructor';$('barrier').value='I lose track of the first step when a large assignment has many parts and no short checklist.';$('help').value='A brief task map and a chance to confirm the first deliverable have helped in other courses.';$('question').value='Could we clarify the first deliverable and where I should begin?';draft()});
 $('copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('output').value);$('status').textContent='Message copied.'}catch{$('output').select();$('status').textContent='Select and copy the message using your device.'}});
 $('print').addEventListener('click',()=>window.print());
 </script></body></html>
